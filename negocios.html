@@ -25,14 +25,17 @@
                     <li><a href="contacto.html">CONTACTO</a></li>
                 </ul>
             </nav>
-            <h3>Contador de Articulos:<p id="contador" class="numeroArticulos"></p></h3>
+            <h3>Contador de Articulos:<p id="contador" class="numeroArticulos"></p>
+            </h3>
+            <p id="fecha"></p>
+            <p id="hora"></p>
         </div>
     </header>
 
     <h1 class="titulo">NEGOCIOS Y EMPRENDEDORES</h1>
 
 
-    <section class="container">
+    <section class="container" id="container">
         <div class="noticia">
             <h2>Green Glass: Los mejores vasos del mundo que contribuyen con el Medioambiente</h2>
             <img src="./images/greenglass.jpg" width="400px">
@@ -101,6 +104,14 @@
         
     </section>
 
+    <form id="formulario-articulo">
+        <label class="tituloAgregarNoticias">Titulo Noticia </label>
+        <input class="text" id="titulo" name="titulo">
+        <label class="contenido">Contenido Noticia</label>
+        <textarea id="contenido" class="contenidoNoticia"></textarea>
+        <button type="submit" class="Botonpublicar">Agregar Noticia</button>
+      </form>
+
     <footer class="footer">
         <div class="footer-container">
             <p>
@@ -108,7 +119,9 @@
             </p>
         </div>
     </footer>
+    <script src="noticias.js"></script>
     <script src="contador.js"></script>
+    <script src="fecha-hora.js"></script>
 </body>
 
 </html>
