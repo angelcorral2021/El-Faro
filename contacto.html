@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link herf= "https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>El Faro - Contacto</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1>EL FARO NOTICIAS</h1>
+            <img src="./images/faro.jpg" alt="Icono el faro" class="imagen-faro">
+            <nav class="menu">
+                <ul class="lista">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="negocios.html">NEGOCIOS</a></li>
+                    <li><a href="deportes.html">DEPORTES</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="formulario">
+        <h1 class="titulo">CONTACTO</h1>
+        <form action="enviar.php" method="post" onsubmit="return enviarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu Nombre"><br><br>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Ingresa un mensaje"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <p>
+                &copy; Diario <b>El Faro</b> | Todos los derechos reservados 2023.
+            </p>
+        </div>
+    </footer>
+    <script src="formulario.js"></script>
+</body>
+
+</html>

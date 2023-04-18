@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link herf= "https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>El Faro - Inicio</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1>EL FARO NOTICIAS</h1>
+            
+            <img src="./images/faro.jpg" alt="Icono el faro" class="imagen-faro">
+            <nav class="menu">
+                <ul class="lista">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="negocios.html">NEGOCIOS</a></li>
+                    <li><a href="deportes.html">DEPORTES</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <h3>Contador de Articulos:<p id="contador"  class="numeroArticulos"></p></h3>
+        </div>
+    </header>
+
+    <h1 class="titulo">NOTICIAS</h1>
+
+    <section class="container">
+
+        <div class="noticia">
+            <h2>CONFIRMAN PRIMER CASO DE HUMANO DE GRIPE AVIAR EN <b>CHILE</b></h2>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <video class="video"
+                    src="video/ÚLTIMA HORA _ Alerta sanitaria_ Chile confirma el primer caso de gripe aviar en humanos.mp4"
+                    controls width="100%"></video>
+                <div style="margin: 20px; width: 100%;">
+                    <p>Fuente: Negocios TV (España).<br><br></p>
+                    <p>
+                        El Ministerio de Salud de Chile informó este miércoles el primer caso humano de gripe aviar en
+                        el país. Se trata de una mujer de 43 años que se contagió después de haber estado en contacto
+                        con aves de corral en una feria de la región de Valparaíso. La paciente fue hospitalizada y su
+                        condición es estable.
+                    </p>
+                    <p>
+                        La gripe aviar es una enfermedad causada por el virus H5N1, que normalmente afecta a aves y
+                        puede contagiarse a humanos. Aunque el virus es altamente patógeno, el riesgo de transmisión de
+                        persona a persona es bajo. Las autoridades de salud han implementado medidas para controlar el
+                        brote y prevenir la propagación del virus.
+                    </p>
+                    <p>
+                        El Ministerio de Salud de Chile insta a la población a tomar precauciones al interactuar con
+                        aves de corral y a informar a las autoridades de salud si se presenta algún síntoma de
+                        enfermedad respiratoria después de haber tenido contacto con estos animales.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="noticia">
+            <h2 style="text-align: center;">RED HOT CHILI PEPPERS AGOTA ENTRADAS EN CHILE</h2>
+
+            <div style="text-align: center;">
+                <img src="images/red-hot-chili-peppers-2022-promo-03-web-768x432.jpg"
+                    style="max-width: 100%; height: auto;">
+            </div>
+            <p>
+                La banda de rock Red Hot Chili Peppers ha anunciado su gira mundial para el año 2023, la cual incluirá
+                una parada en Chile. Los fanáticos de la banda de nuestro país podrán disfrutar del concierto en el
+                Movistar Arena, el cual se llevará a cabo a finales de Noviembre de este año.
+            </p>
+            <p>
+                Esta será la segunda vez que la banda estadounidense se presente en Chile en solitario, luego de su
+                exitosa visita en el año 2014. La gira promocionará sus dos recientes álbumes lanzados en 2022
+                <b>"Unlimited Love"</b> y <b>"Return of the Dream Canteen"</b>, así como la vuelta de John Frusciante
+                luego de 14 años.
+            </p>
+            <p>
+                Las entradas para el concierto estarán disponibles próximamente a través de <b>PuntoTicket</b>.
+            </p>
+            <div style="text-align: center;">
+                <img class="caratula" src="images/Red-Hot-Chili-Peppers-Unlimited-Love.jpg"
+                    style="max-width: 100%; height: auto; width: 200px;">
+                <audio class="cancion" src="audio/Black Summer (Unlimited Love Album).mp3" controls></audio>
+            </div>
+            <p style="text-align: center;">
+                Black Summer, Primer sencillo de su álbum <b>Unlimited Love</b>.
+            </p>
+        </div>
+
+
+        <div class="noticia">
+            
+            <h2 style="text-align: center;">LA VISITA DE XI JINPING A RUSIA EN EL CONTEXTO DE LA GUERRA DE UCRANIA</h2>
+
+            <img class="imagen" src="./images/rusia.jpg" alt="Imagen de Rusia" width="400px" />
+            <p>
+                Esta estrategia de cambiar el orden y la hegemonía mundial, ha sido promovida por Putin desde su regreso
+                al Kremlin el 2012 y por Xi Jinping, quien asumió la Secretaría General del Partido Comunista de China
+                en ese mismo año. Esta estrategia compartida parte de la base que EE.UU. y sus socios europeos se
+                encuentra en la cima de su influencia y han entrado en un proceso de declive irreversible. En este
+                sentido, ambos liderazgos están convencidos de la inevitable “desaparición” de EE.UU. de la escena
+                internacional como actor primario y, por los mismo, piensa que es su turno para asumir esa posición como
+                buenos actores de aspiración imperial.
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>
+                &copy; Diario <b>El Faro</b> | Todos los derechos reservados 2023.
+            </p>
+        </div>
+    </footer>
+    <script src="contador.js"></script>
+</body>
+
+</html>
